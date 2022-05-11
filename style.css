@@ -6,9 +6,8 @@ body{
 .section-divider{
   background-color: lightblue;
   padding: .5em;
-  justify-content: left;
-  max-width: 50%;
-  margin-left: 4em;
+  box-sizing: border-box;
+  margin-left: 4.5em;
   margin-top: 3em;
 }
 
@@ -68,7 +67,8 @@ img{
 .section-one{
   background-color: white;
   text-align: center;
-  padding: 1em;
+  padding: 0em;
+  margin: 10px;
 }
 
 .section-two{
